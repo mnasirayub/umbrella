@@ -1,0 +1,18 @@
+.footer {
+    background-image: url('https://cdn.shortpixel.ai/spai/ret_img/https://onpay.com/wp-content/uploads/2017/12/sem-page-hero-background-2-bottom.svg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+  }
+  
+  .footer .col-lg-6 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .footer footer,
+  .footer footer a {
+    color: white !important;
+  }
+  
