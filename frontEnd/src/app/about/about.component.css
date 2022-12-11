@@ -1,3 +1,10 @@
+.topSection{
+  height: 95vh;
+}
+.topSection .top{
+  height: 400px;
+  background-color: #2972B8;
+}
 .secondSection {
     margin-top: 200px !important;
     width: 100%;
@@ -127,5 +134,21 @@
     .timer-section .timer .step span {
       left: 50% !important;
       transform: translateX(-50%);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topSection{
+      height: 70vh;
+    }
+    .thirdSection, .secondSection{
+      height: auto;
+      text-align: center;
+    }
+    .feature{
+      color: black !important;
+    }
+    .secondSection h1{
+      text-align: center !important;
     }
   }

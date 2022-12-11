@@ -1,3 +1,10 @@
-.top{
+.second{
     margin-top: 200px !important;
 }
+.topSection{
+    height: 95vh;
+  }
+  .topSection .top{
+    height: 400px;
+    background-color: #2972B8;
+  }
